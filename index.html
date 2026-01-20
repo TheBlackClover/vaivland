@@ -17,6 +17,16 @@
       p, ul {
         margin-inline: calc(18px + 1vw);
       }
+      ul {
+        margin-left: 0px;
+        list-style-type: none;
+        padding-left: calc(18px + 1vw);
+      }
+      li::before {
+        content: ">";
+        font-weight: bold;
+        margin-right: 8px;
+      }
       nav {
         background-color: gray;
         padding: 8px 24px;
@@ -26,12 +36,16 @@
         text-decoration: none;
         font-weight: bold;
         margin-right: 16px;
+        vertical-align: middle;
+      }
+      #home {
+        font-size: 2em;
       }
     </style>
   </head>
   <body>
     <nav>
-      <a href="index.html">Vaivland</a>
+      <a href="index.html" id="home">&gt;</a>
       <a href="nico.html">"NiCo"</a>
       <a href="count.html">Count</a>
     </nav>
