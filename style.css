@@ -49,3 +49,7 @@ nav > a {
   vertical-align: middle;
   text-align: center;
 }
+
+#404 > span {
+  display: block;
+}
