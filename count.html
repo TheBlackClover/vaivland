@@ -18,6 +18,6 @@
     $("nav").load("nav.html");
 
     millis = (Date.now()).getTime() - Date(now.getFullYear(), 0, 1);
-    $("#count").text(720000 * (millis / 31556952000));
+    document.querySelector("#count").innerHTML = math.floor(720000 * (millis / 31556952000));
   </script>
 </html>
