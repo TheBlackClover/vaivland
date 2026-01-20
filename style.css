@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  font-size: calc(12px + 0.75vw);
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+p, ul {
+  margin-inline: calc(18px + 1vw);
+}
+
+ul {
+  margin-left: 0px;
+  list-style-type: none;
+  padding-left: calc(18px + 1vw);
+}
+
+li::before {
+  content: ">";
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+nav {
+  background-color: gray;
+  padding: 8px 24px;
+}
+
+nav > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+#home {
+  font-size: 2em;
+}
