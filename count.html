@@ -14,10 +14,8 @@
     </main>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="count.js"></script>
   <script>
     $("nav").load("nav.html");
-
-    millis = Date.now() - (new Date((new Date(Date.now())).getFullYear(), 0, 1));
-    document.querySelector("#count").innerHTML = Math.floor(720000 * (millis / 31556952000));
   </script>
 </html>
