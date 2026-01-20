@@ -43,3 +43,9 @@ nav > a {
 #home {
   font-size: 2em;
 }
+
+#404 {
+  height: 100vh;
+  vertical-align: middle;
+  text-align: center;
+}
