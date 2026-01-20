@@ -1,4 +1,4 @@
-body {
+ebody {
   background-color: black;
   color: white;
   font-family: Arial;
@@ -44,12 +44,12 @@ nav > a {
   font-size: 2em;
 }
 
-#404 {
+#e404 {
   height: 100vh;
   vertical-align: middle;
   text-align: center;
 }
 
-#404 > span {
+#e404 > span {
   display: block;
 }
