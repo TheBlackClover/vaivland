@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 body {
   background-color: black;
   color: white;
-  font-family: Arial;
+  font-family: Inter, Arial;
   font-size: calc(12px + 0.75vw);
   margin: 0;
 }
