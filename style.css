@@ -32,9 +32,9 @@ main {
   }
 
   a {
-    color: lightblue;
     text-decoration: none;
     font-weight: bold;
+    outline: 4px solid white;
   }
   
   &:is(#e404) {
