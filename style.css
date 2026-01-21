@@ -38,7 +38,7 @@ main {
   }
   
   &:is(#e404) {
-    height: 100vh;
+    height: 50vh;
     display: grid;
     place-items: center;
   }
