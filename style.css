@@ -52,14 +52,13 @@ main {
 nav {
   & {
     background-color: white;
-    color: black;
     padding: 12px 36px;
     position: sticky;
     top: 0;
   }
   
   a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     margin-right: 24px;
