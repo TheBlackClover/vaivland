@@ -45,6 +45,7 @@ main {
   
   &:is(#e404) > span {
     display: block;
+    text-align: center;
     margin-block: 1em;
   }
 }
