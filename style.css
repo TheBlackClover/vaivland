@@ -32,9 +32,11 @@ main {
   }
 
   a {
+    color: white;
     text-decoration: none;
     font-weight: bold;
-    outline: 4px solid white;
+    border: 2px solid white;
+    border-radius: 2px;
   }
   
   &:is(#e404) {
