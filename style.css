@@ -3,8 +3,9 @@
 body {
   background-color: black;
   color: white;
-  font-family: Inter, Arial;
-  font-size: calc(12px + 0.75vw);
+  font-family: Inter, sans-serif;
+  font-optical-sizing: auto;
+  font-size: calc(12px + 1.5vw);
   margin: 0;
 }
 
@@ -15,19 +16,19 @@ main {
   }
   
   p, ul {
-    margin-inline: calc(18px + 1vw);
+    margin-inline: calc(24px + 2vw);
   }
   
   ul {
     margin-left: 0px;
     list-style-type: none;
-    padding-left: calc(18px + 1vw);
+    padding-left: calc(24px + 2vw);
   }
 
   ul > li::before {
     content: ">";
     font-weight: bold;
-    margin-right: 8px;
+    margin-right: 12px;
   }
 
   a {
@@ -38,26 +39,27 @@ main {
   
   &:is(#e404) {
     height: 100vh;
-    vertical-align: middle;
-    text-align: center;
+    display: grid;
+    place-items: center;
   }
   
   &:is(#e404) > span {
     display: block;
+    margin-block: 1em;
   }
 }
 
 nav {
   & {
     background-color: gray;
-    padding: 8px 24px;
+    padding: 12px 36px;
   }
   
   a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 16px;
+    margin-right: 24px;
     vertical-align: middle;
   }
   
